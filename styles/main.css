@@ -6,6 +6,8 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
   font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 body {
@@ -17,12 +19,83 @@ body {
   justify-content: center;
   align-items: flex-start;
   background-color: #FBDA31;
-  padding: 2rem;
+  padding-top: 32px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
   min-height: 100vh;
 }
 
 section {
   max-width: 760px;
   background-color: #ffffff;
-  padding: 2rem 2rem;
+  padding-top: 37px;
+  padding-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  font-weight: 200;
+}
+
+.account-type-radio {
+  display: flex;
+  justify-content: space-around;
+  flex: 1 1 30%;
+  margin-top: 42px;
+  margin-bottom: 20px;
+}
+
+.account-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  /*flex: 1 0 80%;*/
+}
+
+#name {
+  width: 330px;
+  height: 42px;
+  margin-bottom: 30px;
+}
+
+#email {
+  width: 330px;
+  height: 42px;
+  margin-bottom: 30px;
+}
+
+#password {
+  width: 330px;
+  height: 42px;
+  margin-bottom: 10px;
+}
+
+#password-confirm {
+  width: 330px;
+  height: 42px;
+  margin-bottom: 10px;
+}
+
+#picture {
+  width: 330px;
+  height: 42px;
+  border: none;
+  box-shadow: none;
+  padding-left: 0;
+}
+
+.btn {
+  width: 330px;
+  height: 42px;
+  border: 2px solid #000000;
+  font-weight: 600;
 }
